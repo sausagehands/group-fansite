@@ -1,0 +1,113 @@
+
+.hero-section {
+    display: flex;
+    max-height: 500px;
+    gap: 2rem;
+    background-color: hsla(136, 23%, 59%, 70%);
+}
+
+.hero-section-left {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section-right {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.box {
+    flex-basis: 50%;
+}
+
+.hero-sloth-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-title {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: hsla(34, 78%, 91%, 1);
+    color: #2B5749
+}
+
+.hero-description {
+    width: 80%;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.welcome-section {
+    height: 20vh;
+    padding: 2rem;
+    background-color: hsla(34, 78%, 91%, 0.25);
+    text-align: center;;
+}
+
+.welcome-title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #2B5749;
+}
+
+.welcome-description {
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.video-section {
+    min-height: 400px;
+    background-color: rgba(221, 199, 174, 0.7);
+    display: flex;
+    gap: 2rem;
+    padding: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    text-align: center;
+}
+
+.video-description-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-title {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    color: #2B5749;
+}
+
+.video-description {
+    width: 80%;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.sloth-word-section {
+    min-height: 200px;
+    background-color: white;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.sloth-word-section h3 {
+    font-size: 2rem;
+    width: 80%;
+    text-align: center;
+    color: #2B5749;
+}
+
+footer {
+    margin-top: 0px;
+}
+
