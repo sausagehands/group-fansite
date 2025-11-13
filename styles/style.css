@@ -1,22 +1,16 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 h1 {
-    color: #733e0a;
-}
-
-footer {
-    margin-top: 100px;
-    padding: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: linear-gradient(rgba(116, 176, 132, 0.8)), url("../assets/abstract-bg.webp");
-    color: white;
-    font-size: 20px;
-    text-align: center;
-
+    color: #2B5749;
 }
 
 /* Navbar styles */
@@ -28,6 +22,7 @@ footer {
     border-bottom: 3px solid rgb(42, 85, 72);
     box-shadow: 0 4px 8px rgba(42, 85, 72, .2);
     backdrop-filter: blur(10px);
+    font-family: "Patrick Hand", cursive;
 }
 
 .site-nav {
@@ -52,9 +47,6 @@ footer {
     font-size: 1.3rem;
     color: #2B5749;
     text-decoration: none;
-}
-
-.nav-list a {
     transition: border-bottom-color .15s ease;
 }
 
@@ -63,4 +55,14 @@ footer {
 .nav-list a:focus-visible,
 .nav-list a:active {
     border-bottom: 3px solid rgba(43, 87, 73, 0.8);
+}
+
+footer {
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(rgba(116, 176, 132, 0.8)), url("../assets/abstract-bg.webp");
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
 }

@@ -1,21 +1,9 @@
-html {
-    scroll-behavior: smooth;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Patrick Hand", cursive;
-    /* background-image: linear-gradient(rgba(255, 255, 255, .7)), url("../assets/leafy-background.webp"); */
-
-
-}
 
 body {
     background-image: linear-gradient(rgba(255, 255, 255, .7)), url("../assets/leafy-background.webp");
     background-repeat: no-repeat;
     margin-bottom: 5rem;
+    font-family: "Patrick Hand", cursive;
 }
 
 section {
