@@ -7,13 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles/style.css" />
   <link rel="stylesheet" href="styles/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <title>Sloth Fansite</title>
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
+  <header class="site-header">
+    <nav class="site-nav">
+      <a href="index.html"><img class="site-logo" src="assets/logo.png" alt="Sloth Fansite Logo" /></a>
+      <ul class="nav-list">
         <li><a href="index.html">Home</a></li>
         <li><a href="pages/facts.html">Facts</a></li>
         <li><a href="pages/gallery.html">Gallery</a></li>
@@ -24,34 +30,36 @@
 
   <main>
     <section class="hero-section">
-      <figure class="hero-section-left box">
-        <img class="hero-sloth-photo"
-          src="https://plus.unsplash.com/premium_photo-1661877112841-0efa68b18527?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=3488"
-          alt="A sloth hanging from a tree, smiling or sleeping peacefully." />
-      </figure>
-
-      <article class="box hero-section-right">
+      <section class="box">
         <h1 class="hero-title">Meet the Sloth</h1>
         <div class="hero-description">
-          <p>Meet the Sloth! 🦥 </p>
-          <p></p>Sloths are super cute animals that live high up in
-          the trees of warm, tropical rainforests!</p>
-          <p>move very, very slowly — so slowly that green moss sometimes
-            grows on their fur! 🌿</p>
-          <p>They love to hang upside down, eat yummy
-            leaves, and nap almost all day long — up to 20 hours! 😴</p>
-          <p>Even though they move slowly, sloths are great swimmers! 🏊‍♂️</p>
-          </p>
-      </article>
+          <p><span class="accent-text">The chillest animal</span> in the jungle! </p>
+          <!-- <br>They love to nap, hang from trees, and take life nice and slow. Sloths
+            spend most of their day resting, munching on leaves, and moving carefully through the treetops.</p> -->
+      </section>
     </section>
-    <section class="photo-credit-section">
-    <p class="photo-credit">Photo from <a href="https://unsplash.com/photos/three-toed-sloth-in-costa-rica-PZSpZQAtuG4"
-        target="_blank">
-        Unsplash</a>.</p></section>
+    <!-- <section class="photo-credit-section">
+      <p class="photo-credit">Photo from <a
+          href="https://unsplash.com/photos/three-toed-sloth-in-costa-rica-PZSpZQAtuG4" target="_blank">
+          Unsplash</a>.</p>
+    </section> -->
 
     <section class="welcome-section">
       <h2 class="welcome-title">Welcome to Sloth Fansite!</h2>
       <p class="welcome-description">Learn about cute sloths and their slow, peaceful lives.</p>
+
+      <section class="welcome-more-info-section">
+        <figure class="welcome-sloth-image box">
+          <img class="sloth-photo"
+            src="https://plus.unsplash.com/premium_photo-1661877112841-0efa68b18527?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=3488"
+            alt="A sloth hanging from a tree, smiling or sleeping peacefully." />
+        </figure>
+
+        <article class="box welcome-section-article">
+          <p>They love to nap, hang from trees, and take life nice and slow. Sloths
+            spend most of their day resting, munching on leaves, and moving carefully through the treetops.</p>
+        </article>
+      </section>
     </section>
 
     <section class="video-section">

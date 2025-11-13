@@ -1,59 +1,58 @@
 .hero-section {
+    padding: 4rem;
     display: flex;
-    max-height: 500px;
-}
-
-.hero-section-left {
-    flex-basis: 50%;
-    display: flex;
-    justify-content: center;
-}
-
-.hero-section-right {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../assets/leafy-background.webp");
-    background-size: cover;
-    background-position: center;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-
+    height: 600px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("../assets/sloth.webp");
+    background-size: cover;
+    font-family: "Permanent Marker", cursive;
+    color: rgba(255, 255, 255, 0.7)
 }
 
 .box {
     flex-basis: 50%;
 }
 
-.hero-sloth-photo {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.photo-credit-section {
+/* .photo-credit-section {
     background-color: hsla(34, 78%, 91%, 0.25)
-}
+} */
 
-.photo-credit {
+/* .photo-credit {
     margin-left: 1rem;
     font-size: 0.8rem;
     font-style: italic;
-}
+} */
 
 .hero-title {
-    font-size: 4rem;
-    margin-bottom: 2rem;
-    color: hsla(34, 78%, 91%, 1);
-    color: #2B5749
+    font-size: 6rem;
+    color: rgba(255, 255, 255, 0.7)
 }
 
 .hero-description {
-    background-color: rgba(43, 87, 73, 0.3);
-    padding: 2rem;
+    display: flex;
+    align-items: center;
     border-radius: 1rem;
-    width: 80%;
-    font-size: 1.4rem;
-    line-height: 1.5;
+    font-size: 3rem;
+    font-style: italic;
+
+}
+
+/* 
+.accent-text {
+    font-family: "Permanent Marker", cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1;
+    color: #96784E;
+} */
+
+.accent-text {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1;
+    color: #eb6a0e;
 }
 
 .welcome-section {
@@ -61,10 +60,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20vh;
-    padding: 2rem;
-    background-color: hsla(34, 78%, 91%, 0.25);
-    ;
+    padding: 4rem;
+    background-image: linear-gradient(rgba(255, 255, 255, .7)), url("../assets/leafy-background.webp");
+    background-size: cover;
 }
 
 .welcome-title {
@@ -78,6 +76,31 @@
     font-style: italic;
 }
 
+.welcome-more-info-section {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.welcome-sloth-image {
+    padding: 3rem;
+}
+
+.sloth-photo {
+    width: 100%;
+    height: auto;
+}
+
+.welcome-section-article {
+    font-family: "Permanent Marker", cursive;
+    color: #555555;
+    background-color: rgba(221, 199, 174, 0.7);
+    border-radius: 2rem;
+    padding: 3rem;
+    font-size: 2rem;
+    line-height: 1.5;
+}
 .video-section {
     min-height: 400px;
     background-color: rgba(221, 199, 174, 0.7);
@@ -134,7 +157,8 @@
 .sloth-video {
     width: 100%;
     height: 400px;
-    border-radius: 0.5rem;;
+    border-radius: 0.5rem;
+    ;
 
 }
 

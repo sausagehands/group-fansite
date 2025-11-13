@@ -1,6 +1,7 @@
-
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -11,10 +12,55 @@ footer {
     margin-top: 100px;
     padding: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #74b084;
+    background-image: linear-gradient(rgba(116, 176, 132, 0.8)), url("../assets/abstract-bg.webp");
     color: white;
     font-size: 20px;
     text-align: center;
 
 }
 
+/* Navbar styles */
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 1rem 3rem;
+    border-bottom: 3px solid rgb(42, 85, 72);
+    box-shadow: 0 4px 8px rgba(42, 85, 72, .2);
+    backdrop-filter: blur(10px);
+}
+
+.site-nav {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo {
+    width: auto;
+    height: 50px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-list a {
+    font-size: 1.3rem;
+    color: #2B5749;
+    text-decoration: none;
+}
+
+.nav-list a {
+    transition: border-bottom-color .15s ease;
+}
+
+/* Hover, keyboard focus and active  */
+.nav-list a:hover,
+.nav-list a:focus-visible,
+.nav-list a:active {
+    border-bottom: 3px solid rgba(43, 87, 73, 0.8);
+}
