@@ -122,3 +122,8 @@ details:not([open]) .faq-question::after {
     margin: 1rem;
     line-height: 1.6;
 }
+
+footer{
+    background-image: none;
+    color: #eb6a0e;
+}
