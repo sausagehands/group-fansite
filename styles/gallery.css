@@ -1,0 +1,30 @@
+.mintback {
+    background-color: hsla(136, 23%, 59%, 70%);
+}
+
+.lightbrownback{
+    background-color: rgba(221, 199, 174, 0.7);
+    flex-direction: row-reverse;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+figcaption{
+    width: 80%;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
