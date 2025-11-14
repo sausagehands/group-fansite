@@ -33,6 +33,15 @@ ol {
     list-style: none;
     padding-left: 0;
     counter-reset: sloth-counter;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+ol li:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    justify-self: center;
 }
 
 ol li {
@@ -51,8 +60,8 @@ ol li {
 ol li::before {
     content: counter(sloth-counter);
     position: absolute;
-    left: -1rem;
-    top: 50%;
+    top: 3.5rem;
+    left: 0.5rem;
     transform: translateY(-50%);
     background-color: #74b084;
     color: white;
