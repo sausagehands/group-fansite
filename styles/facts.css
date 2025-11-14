@@ -1,109 +1,78 @@
-/* === General Page Setup === */
+/* === Global Page Setup === */
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
     margin: 0;
-    background-color: #f9f9f9;
-    color: #4a6f5b;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-image: linear-gradient(rgba(255, 255, 255, .7)), url("../assets/leafy-background.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #2B5749;
     line-height: 1.6;
 }
 
-/* === Header === */
-header {
-    background-color: #74b084;
-    color: white;
-    text-align: center;
-    padding: 1.5rem 0;
-    background-image: url('https://images.unsplash.com/photo-1580052614034-00c64f3f3a76?auto=format&fit=crop&w=1600&q=80');
-    background-size: cover;
-    background-position: center;
-}
-
-header h1 {
-    font-size: 2.5rem;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
-}
-
-/* === Navigation === */
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 1rem 0 0;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1rem;
-    transition: color 0.3s ease, transform 0.2s ease;
-}
-
-nav a:hover {
-    color: #4a6f5b;
-    transform: scale(1.1);
-}
-
-/* === Main Section === */
+/* === Main Content Box === */
 main {
     max-width: 900px;
-    margin: 2rem auto;
-    padding: 2rem;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
+    margin: 3rem auto;
+    padding: 2.5rem;
+    background-color: rgba(221, 199, 174, 0.8);
+    border-radius: 2rem;
+    box-shadow: 0 4px 10px rgba(42, 85, 72, 0.25);
+}
 
 main h2 {
+    font-family: "Permanent Marker", cursive;
     text-align: center;
-    color: #4a6f5b;
-    font-size: 2rem;
-    border-bottom: 3px solid #74b084;
-    display: inline-block;
-    margin-bottom: 1.5rem;
-    }
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    color: #2B5749;
+}
 
-/* === Ordered List (Facts) === */
+/* === Facts List === */
 ol {
     list-style: none;
     padding-left: 0;
-    }
+    counter-reset: sloth-counter;
+}
 
 ol li {
     counter-increment: sloth-counter;
+    background-color: #ffffff;
+    border-left: 10px solid #eb6a0e;
+    border-radius: 1.5rem;
+    padding: 1.5rem 2rem 1.5rem 4.5rem;
     margin-bottom: 2rem;
     position: relative;
-    padding-left: 3.5rem;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
+    color: #2B5749;
+    box-shadow: 0 4px 10px rgba(42, 85, 72, 0.15);
 }
 
 ol li::before {
     content: counter(sloth-counter);
     position: absolute;
-    left: 0;
-    top: 0;
+    left: -1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #74b084;
+    color: white;
     font-size: 2rem;
     font-weight: bold;
-    color: #74b084;
-    background-color: #e5f3ea;
+    width: 3.5rem;
+    height: 3.5rem;
     border-radius: 50%;
-    width: 2.2rem;
-    height: 2.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.25);
 }
 
-/* === Inline Text Emphasis === */
+/* === Text Emphasis === */
 strong {
-    color: #4a6f5b;
-    }
+    color: #2B5749;
+}
 
 em {
-    color: #74b084;
+    color: #eb6a0e;
     font-style: italic;
-    }
-
-
+}
