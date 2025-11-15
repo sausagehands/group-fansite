@@ -13,6 +13,7 @@ body {
 /* === Main Content Box === */
 main {
     max-width: 900px;
+    /* max-width: 70%; */
     margin: 3rem auto;
     padding: 2.5rem;
     background-color: rgba(221, 199, 174, 0.8);
