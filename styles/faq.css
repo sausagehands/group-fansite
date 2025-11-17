@@ -11,13 +11,13 @@ section {
     margin: 0 auto;
     padding: 2rem 1rem;
     text-align: left;
-    background: 
+    background:
         linear-gradient(to right,
             transparent 0%,
-            rgba(245, 245, 220, 0.1) 0%,
+            rgba(245, 245, 220, 0.1) 1%,
             rgba(245, 245, 220, 0.478) 5%,
             rgba(245, 245, 220, 0.478) 95%,
-            rgba(245, 245, 220, 0.1) 100%,
+            rgba(245, 245, 220, 0.1) 99%,
             transparent 100%);
     border-radius: .5rem;
     padding-bottom: 10vh;
@@ -26,10 +26,6 @@ section {
 h1 {
     font-size: 4rem;
     font-weight: bolder;
-    max-width: 900px;
-    width: 90%;
-    margin: 0 auto;
-    padding: 2rem 1rem;
     text-align: center;
     font-family: "Permanent Marker", cursive;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
