@@ -14,8 +14,9 @@ main a[href] {
     display: flex;
     align-items: center;
     height: 600px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("../assets/sloth.webp");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../assets/sloth.webp");
     background-size: cover;
+    background-position: center 20%;
     font-family: "Permanent Marker", cursive;
     color: rgba(255, 255, 255, 0.7)
 }
@@ -128,9 +129,9 @@ main a[href] {
 
 .video-description {
     width: 80%;
+    margin-bottom: 2rem;
     font-size: 1.5rem;
     line-height: 1.5;
-    margin-bottom: 2rem;
 }
 
 .video-iframe-section {
@@ -142,17 +143,17 @@ main a[href] {
 }
 
 .sloth-word-section {
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image:
         linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
         url("../assets/jungle.webp");
     background-size: cover;
     background-position: center;
-    min-height: 200px;
     background-color: white;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .sloth-video {
@@ -172,9 +173,4 @@ main a[href] {
     text-align: center;
     font-style: italic;
     color: rgba(255, 255, 255, 0.7);
-}
-
-
-footer {
-    margin-top: 0px;
 }
